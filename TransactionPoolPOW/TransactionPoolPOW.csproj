@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlockChain\SingleTransaction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Clifton.Core">
+      <HintPath>..\TransactionPool\Merkle Tree\Clifton.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.Linq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
